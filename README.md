@@ -9,11 +9,9 @@ There are 4 Functions along with an event Listener which operate as an automatic
   <li><b>showError</b>: The function takes two values: Inputs and Message. This function is triggered by the event listener then change the field border color to red and display the error message.</li>
   <li><b>showSuccess</b>: The function takes a single input. It is triggered by the event listener and changes the input box border's color to green.</li>
   <li><b>isValidEmail</b>: The function takes a single input</li>
-  <li><b>checkRequired</b>:</li>
-  
- <li><b>checkLength</b>:</li>
-  <li><b>checkLength</b>:</li>
-  <li><b>checkPasswordsMatch</b>:</li>
-  <li><b>getFieldName</b>:</li>
+  <li><b>checkRequired</b>: The function passes an array of constant variables [username, fullname, email, password, password].</li>
+ <li><b>checkLength</b>: The function passes three values: variable name, minimum number of characters, and maximum number of characters. When no error is captured, the status of the field is [Success] thus the border becomes green.</li>
+  <li><b>checkPasswordsMatch</b>:The function compares password entries to decide whether the repeated password equals the first one or not</li>
+  <li><b>getFieldName</b>: The function returns the first character of the word as Capital and Concat it together with variable [id] starting with the character in the second index of the array.</li>
   
 </ul>
