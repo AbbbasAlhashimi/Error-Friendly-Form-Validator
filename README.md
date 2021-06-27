@@ -1,4 +1,4 @@
-# Error-Friendly-Form-Validator
+# Error-Friendly-Vanilla JS Form-Validator
 Error Friendly Form Validator using Vanilla JS
 The form takes 5 entries: Username, Full Name, Email, Password, and Password Confirmation. Each entry has a type, id, and a placeholder value. Along with every entry, there is an error friednly validator triggered upon submitting an entry via the <b>Submit Button</b>.<br>
 Each Entry has two potential entry states: Success and Error. Along with input states, there are styling conditions [.form-control.success input] and [.form-control.error input] while error messages remain hidden until inputs are checked.<br>
