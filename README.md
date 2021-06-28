@@ -12,6 +12,6 @@ There are 4 Functions along with an event Listener which operate as an automatic
   <li><b>checkRequired</b>:<br> The function passes an array of constant variables [username, fullname, email, password, password].</li>
  <li><b>checkLength</b>:<br> The function passes three values: variable name, minimum number of characters, and maximum number of characters. When no error is captured, the status of the field is [Success] thus the border becomes green.</li>
   <li><b>checkPasswordsMatch</b>:<br>The function compares password entries to decide whether the repeated password equals the first one or not</li>
-  <li><b>getFieldName</b>:v The function returns the first character of the word as Capital and Concat it together with variable [id] starting with the character in the second index of the array.</li>
+  <li><b>getFieldName</b>:<br> The function returns the first character of the word as Capital and Concat it together with variable [id] starting with the character in the second index of the array.</li>
 </ul>
 <br> The Code Implementation can be found here [https://codepen.io/abbbas_alhashimi/pen/MWpRKPN].
